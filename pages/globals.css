@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+a {
+  text-decoration: none; /* Ensure no underline for all anchor tags */
 }
 
-nav li {
-  display: inline;
-  margin-right: 1rem;
+/* Optionally add this if you want to enforce the same styling for all links */
+.link {
+  text-decoration: none;
+  color: inherit; /* This ensures the link takes the text color of the parent */
 }
